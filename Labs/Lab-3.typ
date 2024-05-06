@@ -17,26 +17,21 @@
       profile: "a-mhamdi",
     ),
 
-    /*
+    
     (
-      name: "Student 1",
+      name: "sinda Mannai  ",
+      department: [Dept. of EE],
+      organization: [ISET Bizerte --- Tunisia],
+      profile: "sinda123",
+    ),
+    (
+      name: "Nour el houde nefzi ",
       department: [Dept. of EE],
       organization: [ISET Bizerte --- Tunisia],
       profile: "abc",
     ),
-    (
-      name: "Student 2",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    ),
-    (
-      name: "Student 3",
-      department: [Dept. of EE],
-      organization: [ISET Bizerte --- Tunisia],
-      profile: "abc",
-    )
-  */
+    
+  
 
   )
   // index-terms: (""),
@@ -44,7 +39,7 @@
 )
 
 = Exercise
-In this lab, you will create a basic web application using *Genie* framework in Julia. The application will allow us to control the behaviour of a sine wave, given some adjustble parameters. You are required to carry out this lab using the REPL as in @fig:repl.
+In this lab, wewill create a basic web application using *Genie* framework in Julia. The application will allow us to control the behaviour of a sine wave, given some adjustble parameters. You are required to carry out this lab using the REPL as in @fig:repl.
 
 #figure(
 	image("Images/REPL.png", width: 100%, fit: "contain"),
@@ -73,11 +68,12 @@ julia> up() # Start server
 We can now open the browser and navigate to the link #highlight[#link("localhost:8000")[localhost:8000]]. We will get the graphical interface as in @fig:genie-webapp.
 
 #figure(
-	image("Images/Genie-sinewave.png", width: 100%),
+	image("Images/nour et sinda .jpeg", width: 100%),
 	caption: "Genie -> Sine Wave",
 ) <fig:genie-webapp>
 
 #test[You are asked to add two extra sliders that modify the behaviour of the sine wave graph:
-	+ _Phase_ ranging between $-pi$ and $pi$, changes by a step of $pi/100$
+	+ _Phase_ ranging between $-pi$ and $pi$, changes by a step of $pi/100$ 
+  
 	+ _Offset_ varies from $-0.5$ to $1$, by a step of $0.1$.]
 
